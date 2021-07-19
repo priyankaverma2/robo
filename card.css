@@ -1,0 +1,20 @@
+.clsdel{
+    position: absolute;
+    color: brown;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+.clsedt{
+    position: absolute;
+    color:black;
+    left:5px;
+    top: 5px;
+    cursor: pointer;
+}
+.crd{
+    display: grid;
+   grid-template-columns: auto,auto;
+
+   grid-row-gap:25px;
+}

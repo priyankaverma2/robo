@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to left,rgb(58, 1, 110,1)0%,rgb(230, 6, 129,1)100%);
+}
+@font-face{
+  font-family: 'SEGA LOGO FONT';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+  }
+  h1{
+    font-family: 'SEGA LOGO FONT';
+    font-weight: 500; 
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    color: aqua;
+  }
+
+.tc{    
+  border-Color: "#19a974";
+  background-Color: "#cdecff";
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
